@@ -1,0 +1,67 @@
+body{
+	display: flex;
+	flex-direction: row;
+}
+.icon{
+	width: 100px;
+	left: 0;
+	display:flex;
+	flex-direction: column;
+	align-items:center;
+	padding-top: 7px;
+	height: 50px;
+	background-color: white;
+	border: none;
+	color: #918f8e;
+	margin-top: 2px;
+}
+button:hover{
+	color: black;
+	background-color:#b8d8e6;
+	border-left: solid 3px #0d86ba;
+}
+#image{
+	padding:10px 0 10px 20px;
+}
+.side{
+	width: 100px;
+	margin-top: 0;
+	left: 0;
+	height: 100%;
+	border-right: 10px solid rgb(223, 223, 223);
+}
+
+/* lesson css */
+
+.lesson{
+	margin:80px 0 0 0; 
+	background-color:rgb(243, 240, 240);
+    height: auto !important;
+    height: 600px;
+	width: 100%;
+}
+.infile{
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	margin:50px 0 0 40px;
+}
+.inp{
+	background-color: white;
+	border-radius: 10px;
+	width: 60%;
+	padding-left: 10px;
+	height: 40px;
+	border: none;
+}
+.upload{
+	height: 100px;
+	width: 100px;
+	/* border-radius: 10px; */
+	background-color: white;
+	border: none;
+	/* margin-left: -450px; */
+	position: sticky;
+	margin-right: 50%;
+	padding-left: 25px;
+}
