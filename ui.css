@@ -3,7 +3,7 @@ body{
 	flex-direction: row;
 }
 .icon{
-	width: 100px;
+	width:100%;
 	left: 0;
 	display:flex;
 	flex-direction: column;
@@ -16,15 +16,18 @@ body{
 	margin-top: 2px;
 }
 button:hover{
+	height: 12%;
+	width: 100%;
 	color: black;
 	background-color:#b8d8e6;
 	border-left: solid 3px #0d86ba;
 }
 #image{
-	padding:10px 0 10px 20px;
+	width:80%;
+	padding:10px 0 10px 10%;
 }
 .side{
-	width: 100px;
+	width:15%;
 	margin-top: 0;
 	left: 0;
 	height: 100%;
@@ -47,6 +50,7 @@ button:hover{
 	margin:50px 0 0 40px;
 }
 .inp{
+	outline: none;
 	background-color: white;
 	border-radius: 10px;
 	width: 60%;
@@ -55,13 +59,16 @@ button:hover{
 	border: none;
 }
 .upload{
-	height: 100px;
-	width: 100px;
+	height: 90px;
+	min-width:60px;
+	width: 15%;
+	align-items: center;
 	/* border-radius: 10px; */
 	background-color: white;
 	border: none;
+	outline: none;
 	/* margin-left: -450px; */
 	position: sticky;
-	margin-right: 50%;
-	padding-left: 25px;
+	margin-right: 45%;
+	padding-left: 14px;
 }
